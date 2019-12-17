@@ -47,18 +47,18 @@
     column-count: 1;
   }
   
-  .col-1 {
-    
+  .col-1, .col-2, .col-3 {
+    width: 100%;
+    margin: 0;
+    float: none;
+    .border-right: 0;
   }
-  .wrapper {
-    width: 90%;
-  }
-  #social {
-    position: absolute;
-    width: auto;
-    margin: 82px 4px;
+  
+  :details div {
+    height: auto;
   }
 }
+
 
 
 
