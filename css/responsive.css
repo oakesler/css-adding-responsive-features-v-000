@@ -27,7 +27,7 @@
   }
 }
 
-@media screen and (max-width: 1108x) {
+@media screen and (min-width: 1108x) {
   .wrapper {
     width: 90%;
   }
