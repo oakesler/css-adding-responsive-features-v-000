@@ -8,20 +8,16 @@
   body {
     font-size: 85%;
   }
-  
   h1#logo {
     height: 35 px;
     width: 35 px;
   }
-  
   h2#logo {
     font-size: 2.23em;
   }
-  
   #social {
     margin: 72 px;
   }
-  
   .col-3 p{
     column-count: 2;
   }
@@ -57,3 +53,4 @@
   :details div {
     height: auto;
   }
+}
