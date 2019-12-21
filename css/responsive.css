@@ -1,33 +1,29 @@
-@media screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
   body {
     background-color: olive;
   }
 }
 
-@media screen and (max-width: 900 px) {
+@media only screen and (min-width: 900 px) {
   body {
     font-size: 85%;
   }
-  
   h1#logo {
     height: 35 px;
     width: 35 px;
   }
-  
   h2#logo {
     font-size: 2.23em;
   }
-  
   #social {
     margin: 72 px;
   }
-  
   .col-3 p{
     column-count: 2;
   }
 }
 
-@media screen and (max-width: 1108x) {
+@media screen and (min-width: 1108x) {
   .wrapper {
     width: 90%;
   }
@@ -38,7 +34,7 @@
   }
 }
 
-@media screen and (max-width: 750px) {
+@media only screen and (min-width: 750px) {
   #navbar nav a{
     font-size: 0.9em;
   }
@@ -57,13 +53,4 @@
   :details div {
     height: auto;
   }
-}
-
-
-
-
-
-
-
-
 }
